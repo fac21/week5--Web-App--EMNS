@@ -10,6 +10,7 @@ CREATE TABLE users (
 CREATE TABLE parks (
   id SERIAL PRIMARY KEY,
   text_content TEXT,
+  comment TEXT, 
   user_id INTEGER REFERENCES users(id)
 );
 
