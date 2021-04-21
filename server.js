@@ -7,8 +7,7 @@ const displayEntries = require("./routes/displayEntries.js");
 
 //Connect database to the server
 const { Client } = require('pg');
-
-client.connect();
+client.connect('db-url', () => console.log('Connected to DB!'));
 
 // routes
 // server.get("/", home.get);
@@ -16,7 +15,7 @@ client.connect();
 // server.post("/users/delete/", deleteEntry.post);
 // server.get("/posts", displayEntries.get);
 
-// create a server
+//We are listening to the server
 const PORT = process.env.PORT || 5000;
 
 server.listen(PORT, () =>
