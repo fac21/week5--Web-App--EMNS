@@ -6,6 +6,6 @@ beforeEach(() => {
   describe("show homepage", () => {
         it("displays a heading", () => {
             cy.visit("/");
-            cy.contains(park finder);
+            cy.contains("park finder");
         });
   });
