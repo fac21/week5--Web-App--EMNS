@@ -38,4 +38,15 @@ function get(request, response) {
   response.send(html);
 }
 
-module.exports = { get };
+function post(request, response) {
+    const data = request.body;
+    const values = Object.values(data);
+    db.query(
+      "INSERT INTO users(username, location) VALUES($1, $2, $3)",
+      values
+    ).then(() => {
+      response.redirect("/posts");
+    });
+  }
+
+module.exports = { get, post };
