@@ -1,6 +1,6 @@
 # week5--Web-App--EMNS
 
-This week we aimed to learn about databases, specifically SQL, as well as advancing our Node knowledge.
+### This week we aimed to learn about databases, specifically a PostgreSQL database, as well as advancing our Node knowledge.
 
 - Designing and documenting a database schema
 - Create a relational database
@@ -8,6 +8,8 @@ This week we aimed to learn about databases, specifically SQL, as well as advanc
 - Avoid SQL injection vulnerabilities
 - Handle node errors
 - Testing SQL and servers
+
+# Project was not completed so the app is not completely functional.
 
 
 We used all this database and node magically to create a page where users submit their park suggestions and comments!
