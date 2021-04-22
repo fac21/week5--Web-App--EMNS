@@ -22,6 +22,11 @@ We used all this database and node magically to create a page where users submit
 - As a user, I want to come back later to read our and other suggestions.
 - Stretch goal: As a user, I want to search through the the suggestions by location.
 
+### SCHEMA
+
+<img width="500" alt="SQL-Sample-Database-Schema" src="https://user-images.githubusercontent.com/63476393/115779472-f29e5880-a3af-11eb-818c-0c4249efb900.png">
+
+
 
 ### Acceptance Criteria
 
