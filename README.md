@@ -24,7 +24,7 @@ We used all this database and node magically to create a page where users submit
 
 ### SCHEMA
 
-<img width="500" alt="SQL-Sample-Database-Schema" src="https://user-images.githubusercontent.com/63476393/115779472-f29e5880-a3af-11eb-818c-0c4249efb900.png">
+<img width="531" alt="SQL-Sample-Database-Schema" src="https://user-images.githubusercontent.com/63476393/115780028-97209a80-a3b0-11eb-9c65-cb69af7113f3.png">
 
 
 
