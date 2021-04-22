@@ -45,10 +45,10 @@ We used all this database and node magically to create a page where users submit
 
 ### Our team
 
-Facilitator: Evgeny
-User: Sevda
-Deployment: Nafisa
-Quality: Michael
+- Facilitator: Evgeny
+- User: Sevda
+- Deployment: Nafisa
+- Quality: Michael
 
 
 
