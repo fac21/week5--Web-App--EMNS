@@ -1,6 +1,7 @@
+// const model = require("../database/model.js");
 
 function get(request, response) {
-const html = `<!DOCTYPE html>
+  const html = `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -20,8 +21,8 @@ const html = `<!DOCTYPE html>
 </form>
 
 </body>
-`
-response.send(html)
+`;
+  response.send(html);
 }
 
-module.exports={get}
+module.exports = { get };
