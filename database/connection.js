@@ -8,6 +8,7 @@ if (!DB_URL) throw new Error("No database URL environment variable!");
 
 const options = {
   connectionString: DB_URL,
+  ssl: { rejectUnauthorized: false },
 };
 
 const db = new pg.Pool(options);
