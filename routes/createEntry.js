@@ -1,8 +1,8 @@
-// const db = require("../database/connection.js");
+const db = require("../database/connection.js");
 // const model = require("../database/model.js")
 
 function get(request, response) {
-const html = `<!DOCTYPE html>
+  const html = `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -34,8 +34,8 @@ const html = `<!DOCTYPE html>
     </section>
 </body>
 
-</html>`
-response.send(html)
+</html>`;
+  response.send(html);
 }
 
-module.exports = {get}
+module.exports = { get };
