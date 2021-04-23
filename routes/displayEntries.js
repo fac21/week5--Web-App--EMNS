@@ -1,24 +1,29 @@
 const db = require("../database/connection.js");
-const model = require("../database/model.js")
+const model = require("../database/model.js");
 
-function get(request, response) {
+//Using our database
+function getUserEntry(request, response) {
   model.getPosts().then((result) => {
-  const posts = result;
-  console.log("hello");
-  console.log(posts)
-  // console.log(request.body);
-  let postItems = "";
-  // console.log(posts[0]);
-  for (let post of posts) {
-    console.log(post)
-    postItems += `
+    const posts = result;
+    let postItems = "";
+    for (let post of posts) {
+      console.log(post);
+      postItems += `
           <li>
-            <p>${post.id}</p>
-            <p>${post.username}</p>
+            <p>${post.username}</p> 
+            <p>${post.park_name}</p>
+            <p>${post.comment}</p>
           </li>
         `;
-  }
-  response.send(`<ul>${postItems}</ul>`);
-});
+    }
+    response.send(`<ul>${postItems}</ul>`);
+  });
 }
-module.exports = { get };
+
+module.exports = { getUserEntry };
+
+// username;(user)
+// parkname; (parks)
+// comment; (parks)
+
+//Check the data! It's only comes from users!
