@@ -34,7 +34,7 @@ INSERT INTO users (username) VALUES
   ('London Fields', 'London, UK', 4);
 
 
- INSERT INTO park_comments (post_id, user_id, text_content) VALUES
+ INSERT INTO park_comments (park_id, user_id, text_content) VALUES
  (3, 2, 'Lovely time spent!'),
  (2, 1, 'Awesome! Definitely worth seeing'),
  (1, 3, 'Highly recommended!'),

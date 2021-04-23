@@ -6,7 +6,7 @@ function sharedLayout(content) {
       <head>
       <meta charset="utf-8">
       <title>Greeting app</title>
-      <!-- you'd probably put a proper <link href="styles.css"> here in a real app -->
+      <link rel="stylesheet" href="../public/css/style.css">
       <body>
         ${content}
       </body>
@@ -19,12 +19,8 @@ function homePageHtml() {
   return sharedLayout(`
 <h1>Park Finder</h1>
 <section>
-<form action="/users/create">
-<button type="submit"> Add a park</button>
-</form>
-<form action="/posts">
-<button type="submit"> View all parks</button>
-</form>
+<button type="submit"><a href="/users/create">Add a park</a></button>
+<button type="submit"><a href="/posts">View all parks</a></button>
 </section>
 `);
 }
